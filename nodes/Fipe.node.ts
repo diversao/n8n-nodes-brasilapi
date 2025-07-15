@@ -13,7 +13,7 @@ export class Fipe implements INodeType {
     group: ['transform'],
     version: 1,
     description: 'Consulta FIPE usando BrasilAPI (veículos, marcas, preços)',
-    icon: 'file:icon.svg',
+    icon: 'file:logo.svg',
     defaults: {
       name: 'FIPE',
     },

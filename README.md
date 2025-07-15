@@ -34,6 +34,7 @@ Depois, **reinicie o n8n** para ativar os novos nodes.
 * **DDD** – Consulta de cidades e estados por DDD
 * **CNPJ** – Informações completas de empresas
 * **FIPE** – Marcas, modelos e preços de veículos
+* **FERIADOS** - Lista os feriados nacionais de determinado ano.
 
 *Novos endpoints da BrasilAPI podem ser adicionados futuramente!*
 

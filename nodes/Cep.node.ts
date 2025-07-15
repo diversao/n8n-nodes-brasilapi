@@ -13,7 +13,7 @@ export class Cep implements INodeType {
     group: ['transform'],
     version: 1,
     description: 'Consulta CEP usando BrasilAPI',
-    icon: 'file:icon.svg', // (adicione o SVG se quiser)
+    icon: 'file:logo.svg', // (adicione o SVG se quiser)
     defaults: {
       name: 'CEP',
     },

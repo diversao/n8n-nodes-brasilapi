@@ -13,7 +13,7 @@ export class Ddd implements INodeType {
     group: ['transform'],
     version: 1,
     description: 'Consulta DDD usando BrasilAPI',
-    icon: 'file:icon.svg',
+    icon: 'file:logo.svg',
     defaults: {
       name: 'DDD',
     },

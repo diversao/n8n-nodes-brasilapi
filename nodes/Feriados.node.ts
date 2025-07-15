@@ -13,7 +13,7 @@ export class Feriados implements INodeType {
     group: ['transform'],
     version: 1,
     description: 'Consulta feriados nacionais para um ano via BrasilAPI',
-    icon: 'file:icon.svg',
+    icon: 'file:logo.svg',
     defaults: {
       name: 'Feriados',
     },

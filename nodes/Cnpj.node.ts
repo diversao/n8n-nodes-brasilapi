@@ -13,7 +13,7 @@ export class Cnpj implements INodeType {
     group: ['transform'],
     version: 1,
     description: 'Consulta CNPJ usando BrasilAPI',
-    icon: 'file:icon.svg',
+    icon: 'file:logo.svg',
     defaults: {
       name: 'CNPJ',
     },

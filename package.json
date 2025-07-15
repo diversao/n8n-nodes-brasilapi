@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-brasilapi-dv",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "Nodes customizados do n8n para consulta de múltiplos endpoints da BrasilAPI, como CEP, DDD, CNPJ, FIPE e outros.",
   "main": "dist/index.js",
   "files": [
