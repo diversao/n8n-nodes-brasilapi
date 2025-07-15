@@ -1,0 +1,47 @@
+{
+  "name": "n8n-nodes-brasilapi",
+  "version": "1.0.8",
+  "description": "Nodes customizados do n8n para consulta de múltiplos endpoints da BrasilAPI, como CEP, DDD, CNPJ, FIPE e outros.",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "n8n",
+    "brasilapi",
+    "cep",
+    "ddd",
+    "cnpj",
+    "fipe",
+    "api",
+    "n8n-community-node-package"
+  ],
+  "author": "Gabryel Goncalves",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/diversao/n8n-nodes-brasilapi"
+  },
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [],
+    "nodes": [
+      "dist/nodes/Cep.node.js",
+      "dist/nodes/Ddd.node.js",
+      "dist/nodes/Cnpj.node.js",
+      "dist/nodes/Fipe.node.js"
+    ]
+  },
+  "dependencies": {
+    "n8n-core": "^1.14.1",
+    "n8n-workflow": "^1.82.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "typescript": "^5.8.3"
+  }
+}
