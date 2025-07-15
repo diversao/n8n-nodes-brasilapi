@@ -1,47 +1,49 @@
-# n8n-nodes-brasilapi
+# n8n-nodes-brasilapi-dv
 
-> **Nodes customizados do n8n para múltiplas consultas à BrasilAPI (CEP, DDD, CNPJ, FIPE e outros)**
+> **Nodes customizados para n8n: consultas automáticas à BrasilAPI (CEP, DDD, CNPJ, FIPE e outros)**
 
-Este pacote adiciona ao n8n vários nodes que permitem buscar informações em diversos endpoints da [BrasilAPI](https://brasilapi.com.br/): CEP, DDD, CNPJ, FIPE e outros.  
-Ótimo para automatizar validação de dados e enriquecer seus workflows!
+Este pacote adiciona ao n8n vários nodes para buscar informações em diferentes endpoints da [BrasilAPI](https://brasilapi.com.br/), como CEP, DDD, CNPJ, FIPE, entre outros.
+Perfeito para automatizar validações, enriquecer dados e turbinar seus workflows!
 
 ---
 
-## 🚀 Instalação
+## ⚡ Instalação
 
-No diretório do seu n8n:
+No diretório do seu n8n, execute:
 
 ```bash
-npm install n8n-nodes-brasilapi```
+npm install n8n-nodes-brasilapi-dv
+```
 
+Depois, **reinicie o n8n** para ativar os novos nodes.
 
-Reinicie seu n8n após instalar.
+---
 
-🟢 Como usar
-No editor do n8n, busque por qualquer node começando por BrasilAPI (CEP, DDD, CNPJ, FIPE, etc).
+## 🟢 Como usar
 
-Adicione ao seu workflow.
+1. No editor do n8n, procure por qualquer node que comece com `BrasilAPI` (CEP, DDD, CNPJ, FIPE etc).
+2. Adicione o node desejado ao seu workflow.
+3. Configure os parâmetros conforme a consulta que precisa.
+4. Rode o fluxo normalmente e aproveite a automação!
 
-Configure os parâmetros conforme o node/consulta desejada.
+---
 
-Rode o fluxo normalmente.
+## 📚 Endpoints suportados
 
-📚 Endpoints suportados
-CEP — consulta de endereço via CEP
+* **CEP** – Consulta de endereço via CEP
+* **DDD** – Consulta de cidades e estados por DDD
+* **CNPJ** – Informações completas de empresas
+* **FIPE** – Marcas, modelos e preços de veículos
 
-DDD — consulta de cidades/estados por DDD
+*Novos endpoints da BrasilAPI podem ser adicionados futuramente!*
 
-CNPJ — informações completas de empresa
+---
 
-FIPE — marcas, modelos e preços de veículos
+## 🧩 Exemplo de uso
 
-Outros endpoints da BrasilAPI podem ser adicionados futuramente!
+### Consultando um CEP
 
-🧩 Exemplo de uso
-Consultando um CEP:
-json
-Copiar
-Editar
+```json
 {
   "cep": "74310-110",
   "state": "GO",
@@ -50,23 +52,34 @@ Editar
   "street": "Rua 106",
   "service": "correios"
 }
-🖼️ Ícone personalizado
-Cada node exibe um ícone BrasilAPI para facilitar identificação visual.
-
-🤝 Contribuindo
-Pull requests são super bem-vindos!
-Para sugestões, bugs ou melhorias, abra uma issue.
-
-📄 Licença
-MIT
-
-Autor: Gabryel Goncalves
-
-yaml
-Copiar
-Editar
+```
 
 ---
 
-Se quiser um README mais avançado (com exemplos por endpoint, prints, badges ou links diretos), só avisar!  
-Pode publicar tranquilamente esse texto — ficou bem completo e profissional! 🚀
+## 🖼️ Visual customizado
+
+Cada node exibe um ícone exclusivo da BrasilAPI para facilitar a identificação visual dentro do n8n.
+
+---
+
+## 🤝 Contribua!
+
+Pull Requests são **muito bem-vindos**!
+Sugestões, bugs ou melhorias? Abra uma *issue*!
+
+---
+
+## 📄 Licença
+
+MIT
+
+---
+
+**Autor:** Gabryel Goncalves
+
+---
+
+## ⭐ Dicas extras
+
+* Para exemplos detalhados por endpoint, prints, badges ou links, é só pedir!
+* Pode usar este README tranquilamente – ele já está pronto para publicação e está bem completo! 🚀
